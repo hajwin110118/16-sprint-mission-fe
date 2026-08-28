@@ -28,13 +28,13 @@
   - [x] 마크다운 언어를 숙지하여 작성해 주세요.
   - [x] 내용은 자유롭게 작성해 주세요.
 
-[x]  본인 브랜치(ex)part1-홍길동)에 스프린트 미션을 업로드해 주세요.
+[x]  본인 브랜치에 스프린트 미션을 업로드해 주세요.
 
 [x]  적절한 커밋 메시지를 남겨 주세요.
 
 [x]  1-Sprint-Mission 레포지토리를 fork 합니다.
 
-[x]  GitHub에 PR(Pull Request)을 생성해 upstream의 본인 브랜치(ex)part1-홍길동)에 미션을 제출합니다.
+[x]  GitHub에 PR(Pull Request)을 생성해 upstream의 본인 브랜치에 미션을 제출합니다.
 
 [x]  멘토님에게 남길 메시지 작성
 
@@ -42,20 +42,14 @@
 
 [x]  HTML, CSS 파일을 Netlify로 배포합니다. (참고: https://www.codeit.kr/learn/5309)
 
-로그인 페이지, 회원가입 페이지 공통
-
 [x] "판다마켓" 로고 클릭 시 루트 페이지("/")로 이동합니다.
 [x] SNS 아이콘들은 클릭 시 각각 "https://www.google.com/", "https://www.kakaocorp.com/page/" 으로 이동합니다.
 [ ] input 요소에 focus in 일 때, 테두리 색상은 ##3692FF입니다.
 [ ] input 요소에 focus out 일 때, 테두리는 없습니다.
-로그인 페이지
 
 [x] "회원가입"버튼 클릭 시 "/signup" 페이지로 이동합니다.
-회원가입 페이지
 
 [x] "로그인"버튼 클릭 시 "/login" 페이지로 이동합니다
-심화 요구사항
-공통
 
 [ ] palette에 있는 color값들을 css 변수로 등록해서 사용합니다.
 [ ] 구글 애널리틱스로 방문자 수 확인하기 할 수 있도록 설정합니다.
@@ -68,7 +62,7 @@
 ## 📂 프로젝트 구조
 ```text
 📦 
-┣ 📂 css
+┣ 📂 styles
 ┃ ┣ 📜 style.css
 ┃ ┣ 📜 home.css
 ┃ ┗ 📜 global.css
