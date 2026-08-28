@@ -47,6 +47,7 @@ header {
   padding: 0 20rem;
   background-color: #ffffff;
   border-bottom: 0.1rem solid #dfdfdf;
+  position: fixed
 }
 
 footer {

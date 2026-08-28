@@ -2,24 +2,35 @@
   background-color: #cfe5ff;
   height: 540px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
-  background-position: 80% bottom;
-  background-size: 55%;
 }
 
-#hero {
+.banner .wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  background-size: 800px auto;
+}
+
+#hero .wrapper {
   background-image: url("../images/home/hero-image.png");
+}
+
+#bottomBanner .wrapper {
+  background-image: url("../images/home/bottom-banner-image.png");
 }
 
 #features {
   padding-bottom: 138px;
 }
-
-#bottomBanner {
-  background-image: url("../images/home/bottom-banner-image.png");
-}
-
 
 #loginLinkButton {
   font-size: 16px;
@@ -28,11 +39,9 @@
   padding: 11.5px 23px;
 }
 
-
 .banner .pill-button {
   margin-top: 32px;
 }
-
 
 .feature {
   padding: 138px 0;
@@ -41,11 +50,9 @@
   gap: 5%;
 }
 
-
 .feature:nth-child(2) {
   text-align: right;
 }
-
 
 .feature-content {
   flex: 1;
